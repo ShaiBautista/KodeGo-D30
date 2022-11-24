@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout with Forms</title>
+    <link rel="stylesheet" href="./holygrail.css">
+</head>
+<body>
+    <header>Header</header>
+    <main>
+        <article>
+            <form>
+            <div class="container">
+                <div class="flex-item left">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name"> <br>
+                    </div>
+
+                    <div class="field">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone">
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="text" id="email">
+                    </div>
+
+                    <div class="field">
+                        <label for="dateTime">Pickup Date/Time</label>
+                        <input type="datetime-local" id="dateTime">
+                    </div>
+                    <div class="field">                   
+                        <label for="dropdown">Pickup Place</label>
+                        <select name="dropdown" id="dropdown">
+                            <option selected disabled value="">Select One</option>
+                        </select>
+                    </div> 
+                    
+                    <div class="field">
+                        <label for="place">Dropoff Place</label>
+                        <input type="text" id="place">
+                    </div>
+                </div>                                                      
+                    <br><br><br>
+                <div class="flex-item right">
+                        Which vehicle do you require? <br>
+                        <input 
+                        type="radio" 
+                        id="van">
+                        <label for="van">Van</label> <br>
+                        
+                        <input 
+                        type="radio" 
+                        id="jeepney">
+                        <label for="jeepney">Jeepney</label> <br>
+                        
+                        <input 
+                        type="radio" 
+                        id="tricycle">                       
+                        <label for="tricycle">Tricycle</label> 
+                        <br> <br>                
+                        
+
+                        Extras <br/>
+                        <input type="checkbox" name="babySeat" id="babySeat"> 
+                        <label for="html">Baby Seat</label> <br>
+                        
+                        <input type="checkbox" name="wheelchair" id="wheelchair">
+                        <label for="html">Wheelchair Access</label> <br>
+
+                        <input type="checkbox" name="stockTip" id="stockTip">                                               
+                        <label for="html">Stock Tip</label>     <br>             
+                </div>
+            </div>                                         
+            <div class="btn-container">
+                <input type="submit" value="Submit Booking"></div>
+            </form>
+        </article>
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+    </main>
+    <footer>Footer</footer>
+
+</body>
+</html>
