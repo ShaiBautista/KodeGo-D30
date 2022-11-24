@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header,
+footer { 
+    height: 20vh;
+    background-color: yellowgreen;
+    padding: 15px;
+}
+header, footer, aside, nav {
+    font-size: 25px;
+}
+
+main {
+height: 60vh;
+display: flex;
+}
+
+nav {
+    width: 20%;
+    padding: 15px;
+    background-color: #a9c1ca;
+}
+
+aside {
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(235, 245, 190);
+}
+
+article {
+    width: 60%;
+    height: 70%;
+    padding: 10px;
+    background-color: rgb(235, 245, 190);
+    margin: 20px;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.flex-item.left {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.field label {
+    padding: 10px;
+}
+
+.field select {
+    flex: 3;
+    padding: 2px;
+    font-size: 20px;
+}
+.field  input {
+    flex: auto;
+    padding: 2px;
+    align-content: flex-end;
+    font-size: 20px;
+}
+
+.flex-item.right{
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    border: 0;
+    padding: 10px;
+    background-color: #7e898a;
+    color: white;
+    font-size: 20px;
+}
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+}
+
